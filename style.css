@@ -462,3 +462,21 @@ footer p {
   font-size: 14px;
   color: #555;
 }
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tech {
+  background-color: #222; /* Match your theme */
+  color: #fff;
+  padding: 6px 14px;
+  font-size: 14px;
+  border-radius: 20px; /* Capsule shape */
+  display: inline-block;
+  font-weight: 500;
+  border: 1px solid #444; /* Subtle border for definition */
+}
