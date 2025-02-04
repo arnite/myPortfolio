@@ -463,20 +463,24 @@ footer p {
   color: #555;
 }
 
+/* Adjusting spacing around tech stack */
 .tech-stack {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px; /* Reduced gap for better spacing */
-  margin-top: 8px; /* Adjusted margin to separate from buttons */
+  gap: 12px; /* Slightly increased gap */
+  margin-top: 20px; /* More space from previous content */
+  margin-bottom: 20px; /* Added space below tech stack */
+  padding: 10px; /* Added padding for extra spacing */
 }
 
+/* Adjusting individual tech item */
 .tech {
-  background-color: #e0e0e0; /* Light gray (ash-like) */
-  color: #333; /* Darker text for contrast */
-  padding: 4px 12px;
-  font-size: 12px;
-  border-radius: 16px;
+  background-color: #e5e5e5; /* Slightly lighter gray for better contrast */
+  color: #333; /* Darker text for readability */
+  padding: 6px 12px; /* Increased padding for better visual balance */
+  font-size: 13px; /* Slightly larger text for readability */
+  border-radius: 20px; /* More rounded look */
   display: inline-block;
   font-weight: 500;
-  border: 1px solid #ccc; /* Slight border to make it pop */
+  border: 1px solid #bbb; /* Softer border */
 }
